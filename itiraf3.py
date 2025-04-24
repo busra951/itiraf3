@@ -11,7 +11,7 @@ from telegram.ext import (
 )
 
 # ↓ Senin değerlerin ↓
-BOT_TOKEN      = "7936867639:AAGmFW6ckXNlSXH4GRswIWON16bySoisXxo"
+BOT_TOKEN      = "7936867639:AAFITAN5LtyzwLFsbJ1W-spNAprCV94ZxLM"
 BOT_USERNAME   = "goygoyitiraf_bot"
 ADMIN_GROUP_ID = -1002532660895
 CHANNEL_ID     = -1001679841226
