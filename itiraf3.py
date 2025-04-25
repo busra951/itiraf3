@@ -11,11 +11,11 @@ from telegram.ext import (
 )
 
 # ↓ Senin değerlerin ↓
-BOT_TOKEN      = "7936867639:AAFITAN5LtyzwLFsbJ1W-spNAprCV94ZxLM"
+BOT_TOKEN      = "7936867639:AAH5BOUyG0EeEUw5QGNLZPgajxFcAqFsreE"
 BOT_USERNAME   = "goygoyitiraf_bot"
 ADMIN_GROUP_ID = -1002532660895
 CHANNEL_ID     = -1001679841226
-CHANNEL_GROUP  = "https://t.me/goygoy_itiraf"
+CHANNEL_GROUP  = "https://t.me/ankara_istanbul7"
 
 # Durum saklama
 awaiting_confession = set()
