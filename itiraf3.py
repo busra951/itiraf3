@@ -10,14 +10,14 @@ current_join_message = {"type": "text", "content": "Merhaba! Gruba katılma iste
 def is_admin(user_id):
     return user_id in ADMIN_IDS
 
-@bot.message_handler(commands=['oluştur'])
+@bot.message_handler(commands=['yap'])
 def set_join_message(message):
     global current_join_message
     if not is_admin(message.from_user.id):
         bot.reply_to(message, "Bu komutu kullanma yetkiniz yok!")
         return
 
-    caption = message.text.replace('/oluştur', '', 1).strip()
+    caption = message.text.replace('/yap', '', 1).strip()
     # Yanıtlanan mesajı kontrol et (medya/metin ayarı)
     if message.reply_to_message:
         replied = message.reply_to_message
